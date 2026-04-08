@@ -1,0 +1,318 @@
+{
+    "Ursa Minor": {
+        "description": "Contiene la estrella Polar, que marca el norte geográfico.",
+        "stars": [
+            {
+                "id": 1,
+                "x": 100,
+                "y": 50
+            },
+            {
+                "id": 2,
+                "x": 150,
+                "y": 70
+            },
+            {
+                "id": 3,
+                "x": 180,
+                "y": 120
+            },
+            {
+                "id": 4,
+                "x": 240,
+                "y": 140
+            },
+            {
+                "id": 5,
+                "x": 280,
+                "y": 200
+            },
+            {
+                "id": 6,
+                "x": 350,
+                "y": 210
+            },
+            {
+                "id": 7,
+                "x": 330,
+                "y": 160
+            }
+        ],
+        "lines": [
+            {
+                "from": 1,
+                "to": 2
+            },
+            {
+                "from": 2,
+                "to": 3
+            },
+            {
+                "from": 3,
+                "to": 4
+            },
+            {
+                "from": 4,
+                "to": 5
+            },
+            {
+                "from": 5,
+                "to": 6
+            },
+            {
+                "from": 6,
+                "to": 7
+            },
+            {
+                "from": 7,
+                "to": 4
+            }
+        ]
+    },
+    "Orion": {
+        "description": "El Cazador, una de las constelaciones más reconocibles del cielo nocturno.",
+        "stars": [
+            {
+                "id": 1,
+                "x": 150,
+                "y": 50
+            },
+            {
+                "id": 2,
+                "x": 350,
+                "y": 80
+            },
+            {
+                "id": 3,
+                "x": 220,
+                "y": 200
+            },
+            {
+                "id": 4,
+                "x": 250,
+                "y": 200
+            },
+            {
+                "id": 5,
+                "x": 280,
+                "y": 200
+            },
+            {
+                "id": 6,
+                "x": 180,
+                "y": 350
+            },
+            {
+                "id": 7,
+                "x": 320,
+                "y": 330
+            }
+        ],
+        "lines": [
+            {
+                "from": 1,
+                "to": 3
+            },
+            {
+                "from": 2,
+                "to": 5
+            },
+            {
+                "from": 3,
+                "to": 4
+            },
+            {
+                "from": 4,
+                "to": 5
+            },
+            {
+                "from": 3,
+                "to": 6
+            },
+            {
+                "from": 5,
+                "to": 7
+            }
+        ]
+    },
+    "Cassiopeia": {
+        "description": "Constelación del hemisferio norte famosa por su forma de W.",
+        "stars": [
+            {
+                "id": 1,
+                "x": 80,
+                "y": 130
+            },
+            {
+                "id": 2,
+                "x": 140,
+                "y": 80
+            },
+            {
+                "id": 3,
+                "x": 210,
+                "y": 145
+            },
+            {
+                "id": 4,
+                "x": 285,
+                "y": 85
+            },
+            {
+                "id": 5,
+                "x": 360,
+                "y": 140
+            }
+        ],
+        "lines": [
+            {
+                "from": 1,
+                "to": 2
+            },
+            {
+                "from": 2,
+                "to": 3
+            },
+            {
+                "from": 3,
+                "to": 4
+            },
+            {
+                "from": 4,
+                "to": 5
+            }
+        ]
+    },
+    "Canis Major": {
+        "description": "Aquí se encuentra Sirio, la estrella más brillante del cielo nocturno.",
+        "stars": [
+            {
+                "id": 1,
+                "x": 120,
+                "y": 120
+            },
+            {
+                "id": 2,
+                "x": 190,
+                "y": 90
+            },
+            {
+                "id": 3,
+                "x": 250,
+                "y": 140
+            },
+            {
+                "id": 4,
+                "x": 220,
+                "y": 220
+            },
+            {
+                "id": 5,
+                "x": 300,
+                "y": 240
+            },
+            {
+                "id": 6,
+                "x": 360,
+                "y": 300
+            }
+        ],
+        "lines": [
+            {
+                "from": 1,
+                "to": 2
+            },
+            {
+                "from": 2,
+                "to": 3
+            },
+            {
+                "from": 3,
+                "to": 4
+            },
+            {
+                "from": 4,
+                "to": 5
+            },
+            {
+                "from": 5,
+                "to": 6
+            }
+        ]
+    },
+    "Scorpius": {
+        "description": "Constelación llamativa del zodiaco con una silueta curvada parecida a un escorpión.",
+        "stars": [
+            {
+                "id": 1,
+                "x": 140,
+                "y": 70
+            },
+            {
+                "id": 2,
+                "x": 200,
+                "y": 110
+            },
+            {
+                "id": 3,
+                "x": 230,
+                "y": 170
+            },
+            {
+                "id": 4,
+                "x": 210,
+                "y": 235
+            },
+            {
+                "id": 5,
+                "x": 250,
+                "y": 285
+            },
+            {
+                "id": 6,
+                "x": 315,
+                "y": 320
+            },
+            {
+                "id": 7,
+                "x": 360,
+                "y": 285
+            },
+            {
+                "id": 8,
+                "x": 335,
+                "y": 240
+            }
+        ],
+        "lines": [
+            {
+                "from": 1,
+                "to": 2
+            },
+            {
+                "from": 2,
+                "to": 3
+            },
+            {
+                "from": 3,
+                "to": 4
+            },
+            {
+                "from": 4,
+                "to": 5
+            },
+            {
+                "from": 5,
+                "to": 6
+            },
+            {
+                "from": 6,
+                "to": 7
+            },
+            {
+                "from": 7,
+                "to": 8
+            }
+        ]
+    }
+}

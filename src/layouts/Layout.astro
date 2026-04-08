@@ -1,0 +1,63 @@
+---
+import "../styles/global.css";
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="Explorador interactivo de constelaciones"
+        />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="bg-[#050505] selection:bg-blue-500/30">
+        <slot />
+    </body>
+</html>
+
+<style is:global>
+    :root {
+        color-scheme: dark;
+    }
+    html {
+        font-family: "Space Grotesk", sans-serif;
+        background: #050505;
+    }
+
+    /* Personalización del scrollbar para que no rompa la estética */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #050505;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #1a1a1a;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #252525;
+    }
+
+    /* Evitar saltos visuales al cargar animaciones */
+    .star,
+    .const-line {
+        vector-effect: non-scaling-stroke;
+    }
+</style>

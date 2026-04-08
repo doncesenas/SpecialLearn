@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ConstellationCanvas from "../components/ConstellationCanvas.svelte";
+---
+
+<Layout title="Stellar Geometry">
+    <main class="min-h-screen bg-[#050505] text-white px-4 py-12 md:py-16">
+        <div class="mx-auto flex max-w-6xl flex-col items-center">
+            <header class="mb-10 text-center">
+                <p
+                    class="mb-3 text-[11px] uppercase tracking-[0.45em] text-sky-300/70"
+                >
+                    Desarrollado con fines recreativos
+                </p>
+
+                <h1
+                    class="mb-4 text-4xl font-light uppercase tracking-[0.25em] md:text-5xl"
+                >
+                    Space's Learning
+                </h1>
+
+                <p
+                    class="mx-auto max-w-2xl text-sm leading-relaxed text-zinc-400 md:text-base"
+                >
+                    Recorre distintas constelaciones, observa su trazo visual y
+                    explora una interfaz inspirada en mapas celestes modernos.
+                </p>
+            </header>
+
+            <ConstellationCanvas client:load />
+
+            <footer
+                class="mt-10 text-center text-[10px] uppercase tracking-[0.3em] text-zinc-600"
+            >
+                Powered By Casa DC • Basado en coordenadas de referencia
+            </footer>
+        </div>
+    </main>
+</Layout>
