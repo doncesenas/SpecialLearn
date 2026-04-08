@@ -435,35 +435,21 @@
         mix-blend-mode: screen;
     }
 
-    .milky-way-grain {
+    .milky-way {
         position: absolute;
-        inset: -12%;
-        opacity: 0.18;
-        background-image: radial-gradient(
-                rgba(255, 255, 255, 0.18) 0.5px,
-                transparent 0.9px
-            ),
-            radial-gradient(rgba(255, 255, 255, 0.08) 0.4px, transparent 0.8px);
-        background-size:
-            18px 18px,
-            28px 28px;
-        background-position:
-            0 0,
-            10px 14px;
-        filter: blur(0.2px);
-        transform: rotate(-24deg) scale(1.35);
-        mask-image: radial-gradient(
+        inset: -18%;
+        opacity: 0.56;
+        background: radial-gradient(
             ellipse at center,
-            black 0%,
-            rgba(0, 0, 0, 0.75) 22%,
-            transparent 62%
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0.13) 12%,
+            rgba(125, 211, 252, 0.1) 22%,
+            rgba(168, 85, 247, 0.075) 32%,
+            rgba(255, 255, 255, 0.04) 42%,
+            transparent 64%
         );
-        -webkit-mask-image: radial-gradient(
-            ellipse at center,
-            black 0%,
-            rgba(0, 0, 0, 0.75) 22%,
-            transparent 62%
-        );
+        filter: blur(22px);
+        transform: rotate(-24deg) scale(1.45);
         mix-blend-mode: screen;
     }
 
@@ -475,7 +461,7 @@
     }
 
     .dense-stars-1 {
-        opacity: 0.24;
+        opacity: 0.32;
         background-image: radial-gradient(
                 rgba(255, 255, 255, 0.9) 0.45px,
                 transparent 0.9px
@@ -483,9 +469,9 @@
             radial-gradient(rgba(255, 255, 255, 0.5) 0.35px, transparent 0.8px),
             radial-gradient(rgba(125, 211, 252, 0.4) 0.5px, transparent 1px);
         background-size:
-            26px 26px,
-            38px 38px,
-            52px 52px;
+            22px 22px,
+            32px 32px,
+            46px 46px;
         background-position:
             0 0,
             14px 20px,
@@ -493,15 +479,15 @@
     }
 
     .dense-stars-2 {
-        opacity: 0.14;
+        opacity: 0.2;
         background-image: radial-gradient(
                 rgba(255, 255, 255, 0.75) 0.6px,
                 transparent 1.1px
             ),
             radial-gradient(rgba(255, 255, 255, 0.38) 0.4px, transparent 0.9px);
         background-size:
-            72px 72px,
-            94px 94px;
+            58px 58px,
+            78px 78px;
         background-position:
             18px 12px,
             40px 55px;
@@ -512,16 +498,16 @@
         inset: 0;
         background: radial-gradient(
                 circle at 48% 45%,
-                rgba(59, 130, 246, 0.05),
+                rgba(59, 130, 246, 0.08),
                 transparent 35%
             ),
             radial-gradient(
                 circle at 58% 55%,
-                rgba(168, 85, 247, 0.035),
+                rgba(168, 85, 247, 0.05),
                 transparent 30%
             );
         mix-blend-mode: screen;
-        opacity: 0.6;
+        opacity: 0.72;
     }
 
     .nebula {
